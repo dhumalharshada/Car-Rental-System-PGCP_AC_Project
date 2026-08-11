@@ -1,0 +1,271 @@
+/* ==========================================
+   GLOBAL
+========================================== */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ==========================================
+   COLORS
+========================================== */
+
+.header-logo-color {
+  color: #e2e8f0;
+}
+
+.custom-bg {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+}
+
+.text-color {
+  color: white;
+}
+
+.text-color-second {
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+.text-color-3 {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.text-color-3:hover {
+  color: white;
+}
+
+.border-color {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.custom-bg-text {
+  color: #0f172a;
+}
+
+.bg-color {
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.bg-color:hover {
+  background: linear-gradient(135deg, #0ea5e9, #0284c7);
+  transform: translateY(-2px);
+}
+
+/* ==========================================
+   CARDS
+========================================== */
+
+.rounded-card {
+  padding: 25px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+
+  transition: 0.3s;
+}
+
+.rounded-card:hover {
+  transform: translateY(-6px);
+}
+
+.form-card {
+  padding: 20px;
+
+  border-radius: 15px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.2);
+}
+
+/* ==========================================
+   CAR CARD
+========================================== */
+
+.car-card {
+  transition: 0.3s ease;
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.car-card:hover {
+  transform: translateY(-8px) scale(1.02);
+
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.35);
+}
+
+.car-card img {
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.car-card:hover img {
+  transform: scale(1.05);
+}
+
+/* ==========================================
+   PROFILE
+========================================== */
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 4px solid #38bdf8;
+
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.4);
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.btn {
+  border-radius: 30px !important;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ==========================================
+   NAVBAR
+========================================== */
+
+.navbar {
+  background: rgba(15, 23, 42, 0.95) !important;
+
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #e2e8f0 !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #38bdf8 !important;
+}
+
+/* ==========================================
+   FORMS
+========================================== */
+
+.form-control,
+.form-select {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+
+  border-radius: 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #38bdf8;
+
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+/* ==========================================
+   TABLE
+========================================== */
+
+.table {
+  color: white;
+}
+
+.table thead {
+  background: #38bdf8;
+}
+
+.table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer {
+  background: transparent;
+}
+
+footer h3,
+footer h5 {
+  color: #38bdf8;
+}
+
+footer p {
+  color: white;
+}
+
+footer button:hover {
+  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.35);
+}
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #38bdf8;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
