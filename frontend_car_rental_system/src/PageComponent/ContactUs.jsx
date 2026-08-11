@@ -8,7 +8,7 @@ const ContactUs = () => {
             </p>
 
             <p style={{ color: "#cbd5e1" }}>
-              📞 +91 7756886078
+              📞 +91 1234567891
             </p>
       </b>
     </div>
